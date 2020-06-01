@@ -1,0 +1,11 @@
+typedef struct nodo _nodo;
+extern void SleepDos();
+extern void Sleep(); 
+extern void Imprimir(_nodo *lista);
+extern int Contar (_nodo *inicio);
+extern int CuantosHay(int numero,int palo, _nodo *mazo);
+extern int Random (int min_num, int max_num);
+extern void clear();
+extern void pause();
+extern int MasLarga(_nodo *uno,_nodo *dos,_nodo *tres,_nodo *cuatro,_nodo *cinco,_nodo *seis,_nodo *siete,_nodo *ocho,_nodo *nueve,_nodo *diez);
+extern void ImprimirJuego(_nodo *uno,_nodo *dos,_nodo *tres,_nodo *cuatro,_nodo *cinco,_nodo *seis,_nodo *siete,_nodo *ocho,_nodo *nueve,_nodo *diez, _nodo *mazo,int Reales);
